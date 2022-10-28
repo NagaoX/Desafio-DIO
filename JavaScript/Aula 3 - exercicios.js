@@ -80,7 +80,7 @@ const formaPagamento = 3;
 
 if (formaPagamento === 1) {
     console.log('O valor a pagar é R$' + 0.9 * precoEtiqueta);
-} else if (formaPagamento === (2 || 3)) {
+} else if (formaPagamento === 2 || formaPagamento === 3) {
     console.log('O valor a pagar é R$' + 0.85 * precoEtiqueta);
 } else if (formaPagamento === 4) {
     console.log('O valor a pagar é R$' + precoEtiqueta);
